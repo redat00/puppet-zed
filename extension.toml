@@ -1,0 +1,11 @@
+id = "puppet"
+name = "Puppet"
+version = "0.0.1"
+schema_version = 1
+authors = ["redat00 <reno@redat.me>"]
+description = "Support for Puppet language"
+repository = "https://github.com/redat00/puppet-zed"
+
+[grammars.puppet]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-puppet"
+commit = "584522f32495d648b18a53ccb52d988e60de127d"
